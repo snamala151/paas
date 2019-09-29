@@ -15,13 +15,13 @@ public class ProductCategory {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
-	@Column(name = "NAME")
+	@Column(name = "name")
 	private String name;
 
-	@Column(name = "LOGO")
+	@Column(name = "logo")
 	private String logo;
 	
-	@Column(name = "URL")
+	@Column(name = "url")
 	private String url;
 
 	public int getId() {
