@@ -8,21 +8,22 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="PRODUCT_CATEGORY")
+@Table(name="product")
 public class ProductCategory {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
-	@Column(name = "name")
+	@Column(name = "NAME")
 	private String name;
-
-	@Column(name = "logo")
-	private String logo;
 	
-	@Column(name = "url")
-	private String url;
+	@Column(name = "PRICE")
+	private Integer price;
+
+	@Column(name = "IMAGE")
+	private String image;
+	
 
 	public int getId() {
 		return id;
@@ -40,20 +41,21 @@ public class ProductCategory {
 		this.name = name;
 	}
 
-	public String getLogo() {
-		return logo;
+	public Integer getPrice() {
+		return price;
 	}
 
-	public void setLogo(String logo) {
-		this.logo = logo;
+	public void setPrice(Integer price) {
+		this.price = price;
 	}
 
-	public String getUrl() {
-		return url;
+	public String getImage() {
+		return image;
 	}
 
-	public void setUrl(String url) {
-		this.url = url;
+	public void setImage(String image) {
+		this.image = image;
 	}
+
 
 }
