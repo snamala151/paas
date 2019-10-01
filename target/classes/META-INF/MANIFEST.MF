@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: pass
 Implementation-Version: 1.0-SNAPSHOT
-Built-By: jhansi
+Built-By: Rams
 Implementation-Vendor-Id: projects
-Build-Jdk: 1.8.0_222
+Build-Jdk: 1.8.0_221
 Implementation-URL: http://projects.spring.io/spring-boot/pass/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
