@@ -1,6 +1,7 @@
-com/jhansun/sampleapp/Info.class
-com/jhansun/sampleapp/resources/Example.class
-com/jhansun/sampleapp/repository/ProductRespository.class
-com/jhansun/sampleapp/PassApplication.class
-com/jhansun/sampleapp/resources/HealthEndpoint.class
-com/jhansun/sampleapp/model/ProductCategory.class
+com\jhansun\sampleapp\model\ProductCategory.class
+com\jhansun\sampleapp\resources\ProductCategoryResource.class
+com\jhansun\sampleapp\model\Message.class
+com\jhansun\sampleapp\PassApplication.class
+com\jhansun\sampleapp\Info.class
+com\jhansun\sampleapp\resources\HealthEndpoint.class
+com\jhansun\sampleapp\repository\ProductRespository.class

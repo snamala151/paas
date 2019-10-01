@@ -18,6 +18,9 @@ public class ProductCategory {
 	@Column(name = "NAME")
 	private String name;
 	
+	@Column(name = "VENDOR")
+	private String vendor;
+	
 	@Column(name = "PRICE")
 	private Integer price;
 
@@ -39,6 +42,14 @@ public class ProductCategory {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+	
+	public String getVendor() {
+		return vendor;
+	}
+
+	public void setVendor(String vendor) {
+		this.vendor = vendor;
 	}
 
 	public Integer getPrice() {
