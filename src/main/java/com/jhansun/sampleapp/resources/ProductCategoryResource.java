@@ -45,7 +45,7 @@ public class ProductCategoryResource {
 		return productRepository.findAll();
 	}
 	
-	@RequestMapping(value = "/{productId}", method = RequestMethod.DELETE)
+	@RequestMapping(value = "/{productId}", method = RequestMethod.GET)
 	public ProductCategory getProduct(@PathVariable("productId") Integer productId) {
 		return productRepository.findOne(productId);
 	}
