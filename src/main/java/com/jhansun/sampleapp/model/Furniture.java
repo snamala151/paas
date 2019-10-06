@@ -25,7 +25,7 @@ public class Furniture {
 	private String vendor;
 	
 	@Column(name = "PRICE")
-	private Integer price;
+	private Integer price;	
 
 	@Column(name = "IMAGE")
 	private String image;
