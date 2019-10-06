@@ -45,6 +45,11 @@ public class ProductCategoryResource {
 		return productRepository.findAll();
 	}
 	
+	@RequestMapping(value = "/{productId}", method = RequestMethod.DELETE)
+	public ProductCategory getProduct(@PathVariable("productId") Integer productId) {
+		return productRepository.findOne(productId);
+	}
+	
 	@RequestMapping(value = "/", method = RequestMethod.PUT)
 	public ResponseEntity<Message> updateProduct(@RequestBody ProductCategory productCategory) {
 		ProductCategory createdOne = productRepository.save(productCategory);
