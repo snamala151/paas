@@ -1,10 +1,13 @@
-C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\model\Furniture.java
 C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\resources\ProductCategoryResource.java
-C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\resources\FurnitureResource.java
 C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\model\ProductCategory.java
 C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\model\Message.java
 C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\Info.java
+C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\repository\KidsRepository.java
 C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\repository\ProductRespository.java
-C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\resources\HealthEndpoint.java
 C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\PassApplication.java
 C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\repository\FurnitureRespository.java
+C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\model\Furniture.java
+C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\resources\FurnitureResource.java
+C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\resources\HealthEndpoint.java
+C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\resources\KidsResource.java
+C:\Development\GIT\paas\src\main\java\com\jhansun\sampleapp\model\Kids.java
